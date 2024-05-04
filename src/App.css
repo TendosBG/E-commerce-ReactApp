@@ -1,9 +1,8 @@
 #root {
-  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #F8F9FA;
 }
 
 .logo {
@@ -34,47 +33,10 @@
   }
 }
 
-
+.card {
+  padding: 2em;
+}
 
 .read-the-docs {
   color: #888;
-}
-
-
-#header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 2em;
-}
-
-
-#products-list{
-  width: 50vw;
-}
-
-
-#main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-.price{
-  display: flex;
-  justify-self: start;
-}
-
-.trash-button{
-  background: url("./assets/trash.png") no-repeat;
-  background-size: contain;
-  width: 1.5rem;
-  height: 1.5rem;
-  cursor: pointer;
-  transition: none;
-  border: none;
-  padding-bottom: 0.4rem;
 }
